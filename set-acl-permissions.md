@@ -14,7 +14,7 @@ Filesystem is already configured for ACL for Ubuntu 14.04 >=
 
 ## Set ACL for file or directory
 
-`setfacl g:group_name:rwx /my/dir`
+`setfacl -m g:group_name:rwx /my/dir`
 
 Use `-R` for recursive setting
 
