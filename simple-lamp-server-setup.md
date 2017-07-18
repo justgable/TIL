@@ -1,5 +1,7 @@
 # Simple LAMP Server Setup (Ubuntu)
 
+To setup a LAMP stack on Ubuntu 16.04. Assumes Ubuntu has already been installed. *NOTE: These instructions are not complete and intentionally omit some steps. For my own personal uses.*
+
 ## Create user with sudo access
 
 ```
