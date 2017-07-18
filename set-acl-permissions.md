@@ -1,4 +1,4 @@
-# Use ACL on Ubuntu
+# Set ACL Permissions (Ubuntu)
 
 ## Install ACL on Ubuntu
 
