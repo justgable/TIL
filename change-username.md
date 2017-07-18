@@ -1,4 +1,4 @@
-# Change Username (Not current user) 
+# Change Username (Ubuntu) 
 
 ```
 killall -u oldname
