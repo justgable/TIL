@@ -1,4 +1,4 @@
-# Explicity Binding (JavaScript)
+# Explicit Binding (JavaScript)
 
 ## Function.prototype.call() 
 
