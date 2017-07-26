@@ -10,5 +10,11 @@ git branch --sort=committerdate  # ASC
 git for-each-ref --sort=-committerdate refs/heads/
 ```
 
-[Source](https://stackoverflow.com/a/5188364)
+### Advanced/Prettified Sort by Committer Date
+
+```
+git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+```
+
+[Source](https://stackoverflow.com/a/5188364) | 
 [List of sort keys](https://www.kernel.org/pub/software/scm/git/docs/git-for-each-ref.html#_field_names)
