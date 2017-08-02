@@ -16,4 +16,4 @@ remembered to document.
 * 7/17/17 - [Set ACL Permissions](/ubuntu/set-acl-permissions.md)
 * 7/18/17 - [Change username](/ubuntu/change-username-ubuntu.md)
 * 7/18/17 - [Simple LAMP Server Setup](/ubuntu/simple-lamp-server-setup.md)
-
+* 8/1/17 - [Completely Remove MySQL](/ubuntu/completely-remove-mysql.md)
