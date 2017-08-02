@@ -1,5 +1,7 @@
 # Completely Remove MySQL (Ubuntu)
 
+Ran into an high I/O loop caused by a bad database import that wouldn't resolve. Since we were just starting to migrate sites to this new server it wasn't a big deal to remove MySQL completely and start over.
+
 ```
 sudo -i
 service mysql stop
