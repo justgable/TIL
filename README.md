@@ -21,4 +21,4 @@ remembered to document.
 * [Change username](/ubuntu/change-username-ubuntu.md) - 7/18/17
 * [Simple LAMP Server Setup](/ubuntu/simple-lamp-server-setup.md) - 7/18/17
 * [Completely Remove MySQL](/ubuntu/completely-remove-mysql.md) - 8/1/17
-* [automysqlbackup Large DB Fix](/ubuntu/automysqlbackup-large-db-fix.md) - 8/16/17
+* ~automysqlbackup Large DB Fix - 8/16/17~
