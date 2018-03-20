@@ -22,3 +22,4 @@ remembered to document.
 * [Simple LAMP Server Setup](/ubuntu/simple-lamp-server-setup.md) - 7/18/17
 * [Completely Remove MySQL](/ubuntu/completely-remove-mysql.md) - 8/1/17
 * [mysqldump Error 23 Fix](/ubuntu/mysqldump-error-23-fix.md) - 9/1/17
+* [Remove old kernels](/ubuntu/remove-old-kernels.md) - 3/20/18
