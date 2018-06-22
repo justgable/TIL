@@ -9,6 +9,7 @@ remembered to document.
 
 ## Git
 
+* [Branch Clean-up](/git/branch-clean-up.md) - 6/22/18
 * [Branch List Sorting](/git/branch-list-sorting.md) - 7/26/17
 
 ## Javascript
