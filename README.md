@@ -24,3 +24,4 @@ remembered to document.
 * [Completely Remove MySQL](/ubuntu/completely-remove-mysql.md) - 8/1/17
 * [mysqldump Error 23 Fix](/ubuntu/mysqldump-error-23-fix.md) - 9/1/17
 * [Remove old kernels](/ubuntu/remove-old-kernels.md) - 3/20/18
+* [Common Uses for `find`](/ubuntu/common-uses-for-find.md) - 7/25/18
