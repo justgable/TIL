@@ -12,20 +12,21 @@ find . -iname '.ds_store'
 
 ### By size
 ```
-// Files over 5MB
+# Files over 5MB
 find . -size +5M
 
-// Files under 100KB
+# Files under 100KB
 find . -size -100k
 ```
 
 ### By date
 
 ```
-// find all files and directories in current directory that have an inode change time within the last 10 days
+# find all files and directories in current directory that have an inode change
+# time within the last 10 days
 find . -newerct '10 days ago' -print -depth 1
 
-// find all files that have a newer created date than myfile.txt 2 levels deep
+# find all files that have a newer created date than myfile.txt 2 levels deep
 find . -newer myfile.txt -depth 2
 ```
 
@@ -36,13 +37,14 @@ find . -newer myfile.txt -depth 2
 ```
 find . -name '.DS_Store' -delete
 ```
-**Warning:** omit the `-delete` flag and run `find` command to verify what files will ultimately be deleted.
+**Warning:** omit the `-delete` flag and run `find` command to verify what
+files will ultimately be deleted.
 
 ### Custom commands
 ```
-// Find all files over 5MB and run `ls -lah` with results
+# Find all files over 5MB and run `ls -lah` with results
 find . -size +5M -exec ls -lah {} \;
 
-// Similar to using -delete but less performant
+# Similar to using -delete but less performant
 find . -name '.DS_Store' -exec rm {} \;
 ```
