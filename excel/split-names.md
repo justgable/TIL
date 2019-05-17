@@ -6,7 +6,7 @@ names in one cell.
 ## Get string AFTER last space
 
 ```
-=TRIM(RIGHT(SUBSTITUTE(C2," ",REPT(" ",LEN(C2))),LEN(C2)))
+=TRIM(RIGHT(SUBSTITUTE(A1," ",REPT(" ",LEN(A1))),LEN(A1)))
 ```
 
 ## Get string BEFORE last space
